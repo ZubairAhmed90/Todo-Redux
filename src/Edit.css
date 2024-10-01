@@ -1,0 +1,48 @@
+.edit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  @media (min-width: 640px) {
+    .edit-container {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .edit-input {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #3b82f6;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .edit-input:focus {
+    border-color: #2563eb;
+    outline: none;
+  }
+  
+  .update-btn {
+    background-color: #f59e0b; /* Accent color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-btn:hover {
+    background-color: #d97706;
+  }
+  
+  @media (min-width: 640px) {
+    .update-btn {
+      margin-left: 10px;
+    }
+  }
+  

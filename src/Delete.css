@@ -1,0 +1,21 @@
+.delete-btn {
+    background-color: #e74c3c; /* Red color */
+    color: white;
+    border: none;
+    padding: 6px 12px; /* Reduced padding */
+    border-radius: 4px; /* Slightly reduced border radius */
+    font-size: 14px; /* Smaller font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    transform: scale(1.05);
+  }
+  
+  .delete-btn:active {
+    transform: scale(0.95);
+  }
+  
